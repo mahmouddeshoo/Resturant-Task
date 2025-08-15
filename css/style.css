@@ -48,10 +48,14 @@ nav img{
   .hero-image{
     width: 45%;
     height: 100%;
-    background-image: url('/images/herobc.jpg');
+    /* background-image: url('/images/herobc.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px; */
+  }
+  .hero-image img{
+    width: 500px;
     border-radius: 10px;
   }
   .recipe{
@@ -102,7 +106,7 @@ nav img{
 .dish-image img{
   width: 500px;
   border-radius: 10px;
-  margin: 2rem;
+  margin: 3rem;
 }
 .our-menu{
   display: flex;
