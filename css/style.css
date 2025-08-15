@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  text-decoration: none;
+  /* background-color: #f5f0e6; */
+  }
+header{
+  padding: 2rem;
+  height: 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  }
+nav img{
+  width: 90px;
+  }
+  .hero{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100vh;
+      /* background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('/images/overly.jpg') center/cover no-repeat; */
+  }
+  .hero-content{
+    width: 45%;
+    padding: 0.5rem;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:start ;
+    flex-direction: column;
+  }
+  .hero-content h1{
+    color: #800020;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+  }
+  .hero-content p{
+    font-size: 1rem;
+    line-height: 28px;
+    color: #808080;
+  }
+  .hero-image{
+    width: 45%;
+    height: 100%;
+    background-image: url('/images/herobc.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .recipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+  }
+  .recipe h2{
+    font-size: 2.5rem;
+    margin: 3rem;
+  }
+  .recipe p{
+    font-size: 1rem;
+  }
+.dish-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dish-title h3{
+  font-size: 2rem;
+  margin: 1rem;
+  color: #800020;
+}
+.dish-title p{
+  font-size: 1rem;
+  color: #808080
+}  
+.dish-detiales{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.dish-recipe h4{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.prepare-time{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  color: #808080;
+}
+.dish-image img{
+  width: 500px;
+  border-radius: 10px;
+  margin: 2rem;
+}
+.our-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.our-menu h2{
+  font-size: 2.5rem;
+  margin: 1rem;
+  color:#800020
+}
+table, th, td{
+  border: 1px solid;
+   border-collapse: collapse;
+   padding:1rem ;
+}
+td a{
+  background-color: #800020;
+  text-align: center;
+  padding: 0.5rem;
+  color: #f5f0e6;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+td a:hover{
+  background-color: burlywood;
+  color:#800020;
+  transition: 1s ease-in-out;
+}
+footer{
+  text-align: center;
+  color: #808080;
+  padding: 2rem;
+}  
